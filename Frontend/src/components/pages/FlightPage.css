@@ -1,0 +1,78 @@
+.flight-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(to bottom, #ad2831, #640d14, #250902);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.flight-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #ffdede;
+}
+
+.flight-info {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  background-color: #250902;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(173, 40, 49, 0.3);
+  line-height: 1.6;
+}
+
+.flight-info p {
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.flight-page h2 {
+  text-align: center;
+  color: #ffcccc;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.table {
+  width: 95%;
+  margin: 0 auto 60px auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(173, 40, 49, 0.3);
+  background-color: #2d0a0a;
+}
+
+.table thead {
+  background-color: #ad2831;
+}
+
+.table th,
+.table td {
+  padding: 12px 16px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.table th {
+  color: white;
+  font-weight: 600;
+}
+
+.table td {
+  color: #f3f3f3;
+  border-bottom: 1px solid #3a0d0d;
+}
+
+.table tr:hover {
+  background-color: #3e1010;
+}
+
+.loader {
+  text-align: center;
+  padding: 60px;
+  font-size: 20px;
+  color: #ffdede;
+}

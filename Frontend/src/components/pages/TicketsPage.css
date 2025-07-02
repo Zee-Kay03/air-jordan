@@ -1,0 +1,88 @@
+.tickets-wrapper {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #ad2831, #38040e, #250902);
+  color: white;
+  text-align: center;
+}
+
+.tickets-wrapper h1 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #ffdede;
+}
+
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ticket-card {
+  background-color: #250902;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(173, 40, 49, 0.3);
+  text-align: left;
+}
+
+.ticket-card h2 {
+  color: #ad2831;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.ticket-card p {
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.ticket-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn,
+.edit-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.cancel-btn {
+  background-color: #800e13;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #ad2831;
+  color: white;
+}
+
+.cancel-btn:hover,
+.edit-btn:hover {
+  transform: scale(1.05);
+}
+
+.paid {
+  color: #8eff8e;
+  font-weight: 600;
+}
+
+.pending {
+  color: #ffb347;
+  font-weight: 600;
+}
+
+.loader,
+.error {
+  font-size: 18px;
+  padding: 40px;
+  color: #ffdede;
+}

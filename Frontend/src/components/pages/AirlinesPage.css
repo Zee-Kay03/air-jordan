@@ -1,0 +1,50 @@
+.airlines-wrapper {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #ad2831, #38040e, #250902);
+  color: white;
+  text-align: center;
+}
+
+.airlines-wrapper h1 {
+  margin-bottom: 40px;
+  color: #ffdede;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.airlines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.airline-card {
+  background-color: #250902;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(173, 40, 49, 0.3);
+  border-left: 4px solid #ad2831;
+  text-align: left;
+}
+
+.airline-card h2 {
+  color: #ad2831;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.airline-card p {
+  font-size: 15px;
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+.loader,
+.error {
+  font-size: 18px;
+  padding: 40px;
+  color: #ffdede;
+}
